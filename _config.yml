@@ -2,12 +2,13 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://www.amandacanyon.com
+title: Thoughts of an SF Hacker and Rubyist
+subtitle: keep calm and code on
+author: Amanda Canyon
 simple_search: http://google.com/search
 description:
+
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -16,10 +17,10 @@ description:
 date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
-subscribe_rss: /atom.xml
-subscribe_email:
+#subscribe_rss: /atom.xml
+#subscribe_email:
 # RSS feeds can list your email address if you like
-email:
+email: acanyon@gmail.com
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -58,13 +59,13 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/twitter.ht
 # ----------------------- #
 
 # Github repositories
-github_user:
+github_user: acanyon
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:
+twitter_user: acanyon
 twitter_tweet_count: 4
 twitter_show_replies: false
 twitter_follow_button: true
@@ -75,22 +76,22 @@ twitter_tweet_button: true
 google_plus_one: false
 google_plus_one_size: medium
 
-# Google Plus Profile
-# Hidden: No visible button, just add author information to search results
-googleplus_user:
-googleplus_hidden: false
+## Google Plus Profile
+## Hidden: No visible button, just add author information to search results
+#googleplus_user:
+#googleplus_hidden: false
 
-# Pinboard
-pinboard_user:
-pinboard_count: 3
-
-# Delicious
-delicious_user:
-delicious_count: 3
-
-# Disqus Comments
-disqus_short_name:
-disqus_show_comment_count: false
+##Pinboard
+#pinboard_user:
+#pinboard_count: 3
+#
+## Delicious
+#delicious_user:
+#delicious_count: 3
+#
+## Disqus Comments
+#disqus_short_name:
+#disqus_show_comment_count: false
 
 # Google Analytics
 google_analytics_tracking_id:
